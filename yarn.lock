@@ -5546,9 +5546,11 @@ __metadata:
     react: 18.2.0
     react-native: 0.71.8
     react-native-calendars: ^1.1291.1
+    react-native-pager-view: ^6.2.1
     react-native-paper: 5.0.0-rc.10
     react-native-safe-area-context: ^4.4.1
     react-native-screens: ^3.18.2
+    react-native-tab-view: ^3.5.2
     react-native-vector-icons: ^9.2.0
     react-test-renderer: 18.2.0
     terser-webpack-plugin: ^5.3.6
@@ -7498,9 +7500,11 @@ __metadata:
     react: 18.2.0
     react-native: 0.71.8
     react-native-bootsplash: ^4.7.1
+    react-native-pager-view: ^6.2.1
     react-native-paper: 5.0.0-rc.10
     react-native-safe-area-context: ^4.4.1
     react-native-screens: ^3.18.2
+    react-native-tab-view: ^3.5.2
     react-native-vector-icons: ^9.2.0
     react-test-renderer: 18.2.0
     terser-webpack-plugin: ^5.3.6
@@ -11195,6 +11199,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-pager-view@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "react-native-pager-view@npm:6.2.1"
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: a70270bd4a2c99bed23184bca8a2a7f4c1190d0f4db411f81f70d437062f10980a1a2d0731ef720b9593b1f9939678c3d86f137f2e0c7b7b5bd87dc45e2f057d
+  languageName: node
+  linkType: hard
+
 "react-native-paper@npm:5.0.0-rc.10":
   version: 5.0.0-rc.10
   resolution: "react-native-paper@npm:5.0.0-rc.10"
@@ -11237,6 +11251,19 @@ __metadata:
   version: 1.0.5
   resolution: "react-native-swipe-gestures@npm:1.0.5"
   checksum: d637bc40baa50fa0ce3b6cf2b494efeceaea03cc3875cb7cf7d76922914a21d5e6b098d4a084fb291ce61bfbb0a241c03cff24b15bebf0cfae1c146f4ad10d92
+  languageName: node
+  linkType: hard
+
+"react-native-tab-view@npm:^3.5.2":
+  version: 3.5.2
+  resolution: "react-native-tab-view@npm:3.5.2"
+  dependencies:
+    use-latest-callback: ^0.1.5
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+    react-native-pager-view: "*"
+  checksum: bd287e5543881aa662ee55418a3bd5dacb25033425a9fcb0fff21c3a3b96f956af1a77cd9bab4e7a8e94590080a5d8e3cb99cfa8613b19bf6da24bfc9b4942d4
   languageName: node
   linkType: hard
 

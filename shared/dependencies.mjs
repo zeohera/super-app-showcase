@@ -47,6 +47,16 @@ const deps = {
     eager: true,
     requiredVersion: "1.17.11",
   },
+  "react-native-pager-view": {
+    singleton: true,
+    eager: true,
+    requiredVersion: "6.2.1",
+  },
+  "react-native-tab-view": {
+    singleton: true,
+    eager: true,
+    requiredVersion: "3.5.2",
+  },
 };
 
 export { deps };
